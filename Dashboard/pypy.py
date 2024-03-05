@@ -7,7 +7,7 @@ from scipy import stats
 import seaborn as sns
 import streamlit as st
 
-ecommerce = pd.read_csv("C:/Users/Latifatul Khumairoh/anaconda3/envs/StreamlitEnv/mydata.csv")
+ecommerce = pd.read_csv("Dashboard/ecommerce.csv")
 
 st.title("E-Commerce Public Data Analysis")
 
